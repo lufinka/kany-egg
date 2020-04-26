@@ -1,0 +1,1604 @@
+2020-04-21 23:59:58,325 INFO 15160 [egg-logrotator] app logger reload: got log-reload message
+2020-04-22 04:29:57,392 INFO 15160 [-/127.0.0.1/-/24ms SCHEDULE /__schedule?path=C:\Users\zhang\Desktop\egg\node_modules\_egg-multipart@2.10.2@egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\zhang\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg"
+2020-04-22 04:29:57,405 INFO 15160 [-/127.0.0.1/-/40ms SCHEDULE /__schedule?path=C:\Users\zhang\Desktop\egg\node_modules\_egg-multipart@2.10.2@egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-04-22 09:42:55,191 ERROR 15160 [-/::1/-/5086ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5040,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 15160
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 10:36:21,979 INFO 19024 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:36:22,041 INFO 19024 [egg-multipart] stream mode enable
+2020-04-23 10:36:22,214 INFO 19024 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:36:22,219 INFO 19024 [egg-security] use csrf middleware
+2020-04-23 10:36:22,221 INFO 19024 [egg-security] use methodnoallow middleware
+2020-04-23 10:36:22,223 INFO 19024 [egg-security] use noopen middleware
+2020-04-23 10:36:22,225 INFO 19024 [egg-security] use nosniff middleware
+2020-04-23 10:36:22,226 INFO 19024 [egg-security] use xssProtection middleware
+2020-04-23 10:36:22,227 INFO 19024 [egg-security] use xframe middleware
+2020-04-23 10:36:22,228 INFO 19024 [egg-security] use dta middleware
+2020-04-23 10:36:22,228 INFO 19024 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:36:22,243 INFO 19024 [egg:core] dump config after load, 8ms
+2020-04-23 10:36:22,260 INFO 19024 [egg-watcher:application] watcher start success
+2020-04-23 10:36:22,274 INFO 19024 [egg:core] dump config after ready, 11ms
+2020-04-23 10:36:59,498 INFO 19412 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:36:59,536 INFO 19412 [egg-multipart] stream mode enable
+2020-04-23 10:36:59,817 INFO 19412 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:36:59,829 INFO 19412 [egg-security] use csrf middleware
+2020-04-23 10:36:59,833 INFO 19412 [egg-security] use methodnoallow middleware
+2020-04-23 10:36:59,835 INFO 19412 [egg-security] use noopen middleware
+2020-04-23 10:36:59,838 INFO 19412 [egg-security] use nosniff middleware
+2020-04-23 10:36:59,840 INFO 19412 [egg-security] use xssProtection middleware
+2020-04-23 10:36:59,843 INFO 19412 [egg-security] use xframe middleware
+2020-04-23 10:36:59,844 INFO 19412 [egg-security] use dta middleware
+2020-04-23 10:36:59,845 INFO 19412 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:36:59,864 INFO 19412 [egg:core] dump config after load, 11ms
+2020-04-23 10:36:59,880 INFO 19412 [egg-watcher:application] watcher start success
+2020-04-23 10:36:59,895 INFO 19412 [egg:core] dump config after ready, 13ms
+2020-04-23 10:39:12,922 INFO 16040 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:39:12,960 INFO 16040 [egg-multipart] stream mode enable
+2020-04-23 10:39:12,962 INFO 16040 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:39:13,168 INFO 16040 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:39:13,176 INFO 16040 [egg-security] use csrf middleware
+2020-04-23 10:39:13,178 INFO 16040 [egg-security] use methodnoallow middleware
+2020-04-23 10:39:13,178 INFO 16040 [egg-security] use noopen middleware
+2020-04-23 10:39:13,180 INFO 16040 [egg-security] use nosniff middleware
+2020-04-23 10:39:13,181 INFO 16040 [egg-security] use xssProtection middleware
+2020-04-23 10:39:13,181 INFO 16040 [egg-security] use xframe middleware
+2020-04-23 10:39:13,182 INFO 16040 [egg-security] use dta middleware
+2020-04-23 10:39:13,182 INFO 16040 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:39:13,198 INFO 16040 [egg:core] dump config after load, 7ms
+2020-04-23 10:39:13,223 INFO 16040 [egg-watcher:application] watcher start success
+2020-04-23 10:39:13,227 INFO 16040 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:39:13 GMT+0800 (GMT+08:00)
+2020-04-23 10:39:13,238 INFO 16040 [egg:core] dump config after ready, 9ms
+2020-04-23 10:45:58,236 INFO 11120 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:45:58,348 INFO 11120 [egg-multipart] stream mode enable
+2020-04-23 10:45:58,352 INFO 11120 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:45:58,842 INFO 11120 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:45:58,851 INFO 11120 [egg-security] use csrf middleware
+2020-04-23 10:45:58,853 INFO 11120 [egg-security] use methodnoallow middleware
+2020-04-23 10:45:58,862 INFO 11120 [egg-security] use noopen middleware
+2020-04-23 10:45:58,865 INFO 11120 [egg-security] use nosniff middleware
+2020-04-23 10:45:58,866 INFO 11120 [egg-security] use xssProtection middleware
+2020-04-23 10:45:58,867 INFO 11120 [egg-security] use xframe middleware
+2020-04-23 10:45:58,868 INFO 11120 [egg-security] use dta middleware
+2020-04-23 10:45:58,868 INFO 11120 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:45:58,913 INFO 11120 [egg:core] dump config after load, 28ms
+2020-04-23 10:45:58,979 INFO 11120 [egg-watcher:application] watcher start success
+2020-04-23 10:45:58,982 INFO 11120 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:45:58 GMT+0800 (GMT+08:00)
+2020-04-23 10:45:59,019 INFO 11120 [egg:core] dump config after ready, 33ms
+2020-04-23 10:46:10,752 INFO 10816 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:46:10,788 INFO 10816 [egg-multipart] stream mode enable
+2020-04-23 10:46:10,790 INFO 10816 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:46:10,977 INFO 10816 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:46:10,981 INFO 10816 [egg-security] use csrf middleware
+2020-04-23 10:46:10,983 INFO 10816 [egg-security] use methodnoallow middleware
+2020-04-23 10:46:10,987 INFO 10816 [egg-security] use noopen middleware
+2020-04-23 10:46:10,989 INFO 10816 [egg-security] use nosniff middleware
+2020-04-23 10:46:10,992 INFO 10816 [egg-security] use xssProtection middleware
+2020-04-23 10:46:10,992 INFO 10816 [egg-security] use xframe middleware
+2020-04-23 10:46:10,993 INFO 10816 [egg-security] use dta middleware
+2020-04-23 10:46:10,993 INFO 10816 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:46:11,007 INFO 10816 [egg:core] dump config after load, 8ms
+2020-04-23 10:46:11,033 INFO 10816 [egg-watcher:application] watcher start success
+2020-04-23 10:46:11,035 INFO 10816 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:46:11 GMT+0800 (GMT+08:00)
+2020-04-23 10:46:11,050 INFO 10816 [egg:core] dump config after ready, 13ms
+2020-04-23 10:46:52,717 INFO 10816 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 10:48:07,684 INFO 3580 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:48:07,739 INFO 3580 [egg-multipart] stream mode enable
+2020-04-23 10:48:07,742 INFO 3580 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:48:08,026 INFO 3580 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:48:08,031 INFO 3580 [egg-security] use csrf middleware
+2020-04-23 10:48:08,035 INFO 3580 [egg-security] use methodnoallow middleware
+2020-04-23 10:48:08,037 INFO 3580 [egg-security] use noopen middleware
+2020-04-23 10:48:08,066 INFO 3580 [egg-security] use nosniff middleware
+2020-04-23 10:48:08,070 INFO 3580 [egg-security] use xssProtection middleware
+2020-04-23 10:48:08,075 INFO 3580 [egg-security] use xframe middleware
+2020-04-23 10:48:08,079 INFO 3580 [egg-security] use dta middleware
+2020-04-23 10:48:08,079 INFO 3580 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:48:08,114 INFO 3580 [egg:core] dump config after load, 18ms
+2020-04-23 10:48:08,150 INFO 3580 [egg-watcher:application] watcher start success
+2020-04-23 10:48:08,156 INFO 3580 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:48:08 GMT+0800 (GMT+08:00)
+2020-04-23 10:48:08,180 INFO 3580 [egg:core] dump config after ready, 19ms
+2020-04-23 10:48:08,314 INFO 3580 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 10:48:10,137 INFO 5528 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:48:10,172 INFO 5528 [egg-multipart] stream mode enable
+2020-04-23 10:48:10,174 INFO 5528 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:48:10,363 INFO 5528 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:48:10,370 INFO 5528 [egg-security] use csrf middleware
+2020-04-23 10:48:10,371 INFO 5528 [egg-security] use methodnoallow middleware
+2020-04-23 10:48:10,372 INFO 5528 [egg-security] use noopen middleware
+2020-04-23 10:48:10,374 INFO 5528 [egg-security] use nosniff middleware
+2020-04-23 10:48:10,375 INFO 5528 [egg-security] use xssProtection middleware
+2020-04-23 10:48:10,375 INFO 5528 [egg-security] use xframe middleware
+2020-04-23 10:48:10,376 INFO 5528 [egg-security] use dta middleware
+2020-04-23 10:48:10,376 INFO 5528 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:48:10,390 INFO 5528 [egg:core] dump config after load, 7ms
+2020-04-23 10:48:10,415 INFO 5528 [egg-watcher:application] watcher start success
+2020-04-23 10:48:10,420 INFO 5528 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:48:10 GMT+0800 (GMT+08:00)
+2020-04-23 10:48:10,434 INFO 5528 [egg:core] dump config after ready, 11ms
+2020-04-23 10:48:12,542 INFO 9500 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:48:12,586 INFO 9500 [egg-multipart] stream mode enable
+2020-04-23 10:48:12,589 INFO 9500 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:48:12,790 INFO 9500 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:48:12,794 INFO 9500 [egg-security] use csrf middleware
+2020-04-23 10:48:12,796 INFO 9500 [egg-security] use methodnoallow middleware
+2020-04-23 10:48:12,796 INFO 9500 [egg-security] use noopen middleware
+2020-04-23 10:48:12,798 INFO 9500 [egg-security] use nosniff middleware
+2020-04-23 10:48:12,799 INFO 9500 [egg-security] use xssProtection middleware
+2020-04-23 10:48:12,800 INFO 9500 [egg-security] use xframe middleware
+2020-04-23 10:48:12,801 INFO 9500 [egg-security] use dta middleware
+2020-04-23 10:48:12,802 INFO 9500 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:48:12,818 INFO 9500 [egg:core] dump config after load, 8ms
+2020-04-23 10:48:12,847 INFO 9500 [egg-watcher:application] watcher start success
+2020-04-23 10:48:12,850 INFO 9500 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:48:12 GMT+0800 (GMT+08:00)
+2020-04-23 10:48:12,866 INFO 9500 [egg:core] dump config after ready, 13ms
+2020-04-23 10:48:13,649 INFO 9500 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 10:48:52,064 INFO 1716 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:48:52,103 INFO 1716 [egg-multipart] stream mode enable
+2020-04-23 10:48:52,106 INFO 1716 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:48:52,309 INFO 1716 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:48:52,313 INFO 1716 [egg-security] use csrf middleware
+2020-04-23 10:48:52,316 INFO 1716 [egg-security] use methodnoallow middleware
+2020-04-23 10:48:52,317 INFO 1716 [egg-security] use noopen middleware
+2020-04-23 10:48:52,319 INFO 1716 [egg-security] use nosniff middleware
+2020-04-23 10:48:52,319 INFO 1716 [egg-security] use xssProtection middleware
+2020-04-23 10:48:52,320 INFO 1716 [egg-security] use xframe middleware
+2020-04-23 10:48:52,322 INFO 1716 [egg-security] use dta middleware
+2020-04-23 10:48:52,322 INFO 1716 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:48:52,339 INFO 1716 [egg:core] dump config after load, 9ms
+2020-04-23 10:48:52,364 INFO 1716 [egg-watcher:application] watcher start success
+2020-04-23 10:48:52,368 INFO 1716 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:48:52 GMT+0800 (GMT+08:00)
+2020-04-23 10:48:52,383 INFO 1716 [egg:core] dump config after ready, 12ms
+2020-04-23 10:48:52,560 INFO 1716 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 10:49:39,502 INFO 512 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 10:49:39,541 INFO 512 [egg-multipart] stream mode enable
+2020-04-23 10:49:39,543 INFO 512 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 10:49:39,743 INFO 512 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 10:49:39,747 INFO 512 [egg-security] use csrf middleware
+2020-04-23 10:49:39,749 INFO 512 [egg-security] use methodnoallow middleware
+2020-04-23 10:49:39,750 INFO 512 [egg-security] use noopen middleware
+2020-04-23 10:49:39,751 INFO 512 [egg-security] use nosniff middleware
+2020-04-23 10:49:39,752 INFO 512 [egg-security] use xssProtection middleware
+2020-04-23 10:49:39,753 INFO 512 [egg-security] use xframe middleware
+2020-04-23 10:49:39,754 INFO 512 [egg-security] use dta middleware
+2020-04-23 10:49:39,754 INFO 512 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 10:49:39,769 INFO 512 [egg:core] dump config after load, 8ms
+2020-04-23 10:49:39,787 INFO 512 [egg-watcher:application] watcher start success
+2020-04-23 10:49:39,794 INFO 512 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 10:49:39 GMT+0800 (GMT+08:00)
+2020-04-23 10:49:39,805 INFO 512 [egg:core] dump config after ready, 9ms
+2020-04-23 10:58:29,400 INFO 512 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:11:37,098 INFO 10176 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:11:37,198 INFO 10176 [egg-multipart] stream mode enable
+2020-04-23 11:11:37,201 INFO 10176 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:11:37,498 INFO 10176 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:11:37,504 INFO 10176 [egg-security] use csrf middleware
+2020-04-23 11:11:37,506 INFO 10176 [egg-security] use methodnoallow middleware
+2020-04-23 11:11:37,507 INFO 10176 [egg-security] use noopen middleware
+2020-04-23 11:11:37,510 INFO 10176 [egg-security] use nosniff middleware
+2020-04-23 11:11:37,511 INFO 10176 [egg-security] use xssProtection middleware
+2020-04-23 11:11:37,512 INFO 10176 [egg-security] use xframe middleware
+2020-04-23 11:11:37,513 INFO 10176 [egg-security] use dta middleware
+2020-04-23 11:11:37,513 INFO 10176 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:11:37,531 INFO 10176 [egg:core] dump config after load, 8ms
+2020-04-23 11:11:37,572 INFO 10176 [egg-watcher:application] watcher start success
+2020-04-23 11:11:37,576 INFO 10176 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:11:37 GMT+0800 (GMT+08:00)
+2020-04-23 11:11:37,589 INFO 10176 [egg:core] dump config after ready, 11ms
+2020-04-23 11:14:12,768 INFO 12496 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:14:12,805 INFO 12496 [egg-multipart] stream mode enable
+2020-04-23 11:14:12,807 INFO 12496 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:14:12,989 INFO 12496 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:14:12,994 INFO 12496 [egg-security] use csrf middleware
+2020-04-23 11:14:12,995 INFO 12496 [egg-security] use methodnoallow middleware
+2020-04-23 11:14:12,996 INFO 12496 [egg-security] use noopen middleware
+2020-04-23 11:14:12,998 INFO 12496 [egg-security] use nosniff middleware
+2020-04-23 11:14:12,998 INFO 12496 [egg-security] use xssProtection middleware
+2020-04-23 11:14:12,999 INFO 12496 [egg-security] use xframe middleware
+2020-04-23 11:14:13,000 INFO 12496 [egg-security] use dta middleware
+2020-04-23 11:14:13,000 INFO 12496 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:14:13,015 INFO 12496 [egg:core] dump config after load, 8ms
+2020-04-23 11:14:13,038 INFO 12496 [egg-watcher:application] watcher start success
+2020-04-23 11:14:13,041 INFO 12496 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:14:13 GMT+0800 (GMT+08:00)
+2020-04-23 11:14:13,055 INFO 12496 [egg:core] dump config after ready, 12ms
+2020-04-23 11:14:15,509 INFO 12496 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:14:19,467 ERROR 12496 [-/::1/-/2ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:7:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12496
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:22:17,694 INFO 4956 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:22:17,749 INFO 4956 [egg-multipart] stream mode enable
+2020-04-23 11:22:17,751 INFO 4956 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:22:17,993 INFO 4956 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:22:17,998 INFO 4956 [egg-security] use csrf middleware
+2020-04-23 11:22:17,999 INFO 4956 [egg-security] use methodnoallow middleware
+2020-04-23 11:22:18,000 INFO 4956 [egg-security] use noopen middleware
+2020-04-23 11:22:18,001 INFO 4956 [egg-security] use nosniff middleware
+2020-04-23 11:22:18,002 INFO 4956 [egg-security] use xssProtection middleware
+2020-04-23 11:22:18,003 INFO 4956 [egg-security] use xframe middleware
+2020-04-23 11:22:18,005 INFO 4956 [egg-security] use dta middleware
+2020-04-23 11:22:18,005 INFO 4956 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:22:18,023 INFO 4956 [egg:core] dump config after load, 9ms
+2020-04-23 11:22:18,047 INFO 4956 [egg-watcher:application] watcher start success
+2020-04-23 11:22:18,051 INFO 4956 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:22:18 GMT+0800 (GMT+08:00)
+2020-04-23 11:22:18,064 INFO 4956 [egg:core] dump config after ready, 11ms
+2020-04-23 11:22:24,644 ERROR 4956 [-/::1/-/30ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 4956
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:22:50,501 INFO 4956 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:23:04,805 INFO 2416 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:23:04,883 INFO 2416 [egg-multipart] stream mode enable
+2020-04-23 11:23:04,885 INFO 2416 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:23:05,164 INFO 2416 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:23:05,168 INFO 2416 [egg-security] use csrf middleware
+2020-04-23 11:23:05,170 INFO 2416 [egg-security] use methodnoallow middleware
+2020-04-23 11:23:05,170 INFO 2416 [egg-security] use noopen middleware
+2020-04-23 11:23:05,173 INFO 2416 [egg-security] use nosniff middleware
+2020-04-23 11:23:05,174 INFO 2416 [egg-security] use xssProtection middleware
+2020-04-23 11:23:05,174 INFO 2416 [egg-security] use xframe middleware
+2020-04-23 11:23:05,175 INFO 2416 [egg-security] use dta middleware
+2020-04-23 11:23:05,175 INFO 2416 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:23:05,189 INFO 2416 [egg:core] dump config after load, 8ms
+2020-04-23 11:23:05,212 INFO 2416 [egg-watcher:application] watcher start success
+2020-04-23 11:23:05,216 INFO 2416 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:23:05 GMT+0800 (GMT+08:00)
+2020-04-23 11:23:05,230 INFO 2416 [egg:core] dump config after ready, 12ms
+2020-04-23 11:23:09,162 INFO 9948 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:23:09,212 INFO 9948 [egg-multipart] stream mode enable
+2020-04-23 11:23:09,215 INFO 9948 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:23:09,428 INFO 9948 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:23:09,432 INFO 9948 [egg-security] use csrf middleware
+2020-04-23 11:23:09,434 INFO 9948 [egg-security] use methodnoallow middleware
+2020-04-23 11:23:09,434 INFO 9948 [egg-security] use noopen middleware
+2020-04-23 11:23:09,436 INFO 9948 [egg-security] use nosniff middleware
+2020-04-23 11:23:09,437 INFO 9948 [egg-security] use xssProtection middleware
+2020-04-23 11:23:09,438 INFO 9948 [egg-security] use xframe middleware
+2020-04-23 11:23:09,439 INFO 9948 [egg-security] use dta middleware
+2020-04-23 11:23:09,439 INFO 9948 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:23:09,455 INFO 9948 [egg:core] dump config after load, 9ms
+2020-04-23 11:23:09,479 INFO 9948 [egg-watcher:application] watcher start success
+2020-04-23 11:23:09,482 INFO 9948 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:23:09 GMT+0800 (GMT+08:00)
+2020-04-23 11:23:09,496 INFO 9948 [egg:core] dump config after ready, 12ms
+2020-04-23 11:23:11,933 INFO 9948 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:23:22,197 INFO 4708 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:23:22,248 INFO 4708 [egg-multipart] stream mode enable
+2020-04-23 11:23:22,251 INFO 4708 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:23:22,526 INFO 4708 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:23:22,533 INFO 4708 [egg-security] use csrf middleware
+2020-04-23 11:23:22,536 INFO 4708 [egg-security] use methodnoallow middleware
+2020-04-23 11:23:22,538 INFO 4708 [egg-security] use noopen middleware
+2020-04-23 11:23:22,540 INFO 4708 [egg-security] use nosniff middleware
+2020-04-23 11:23:22,541 INFO 4708 [egg-security] use xssProtection middleware
+2020-04-23 11:23:22,541 INFO 4708 [egg-security] use xframe middleware
+2020-04-23 11:23:22,542 INFO 4708 [egg-security] use dta middleware
+2020-04-23 11:23:22,542 INFO 4708 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:23:22,558 INFO 4708 [egg:core] dump config after load, 10ms
+2020-04-23 11:23:22,582 INFO 4708 [egg-watcher:application] watcher start success
+2020-04-23 11:23:22,588 INFO 4708 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:23:22 GMT+0800 (GMT+08:00)
+2020-04-23 11:23:22,601 INFO 4708 [egg:core] dump config after ready, 10ms
+2020-04-23 11:23:23,695 INFO 4708 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:23:33,865 INFO 14748 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:23:33,907 INFO 14748 [egg-multipart] stream mode enable
+2020-04-23 11:23:33,909 INFO 14748 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:23:34,099 INFO 14748 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:23:34,103 INFO 14748 [egg-security] use csrf middleware
+2020-04-23 11:23:34,104 INFO 14748 [egg-security] use methodnoallow middleware
+2020-04-23 11:23:34,105 INFO 14748 [egg-security] use noopen middleware
+2020-04-23 11:23:34,106 INFO 14748 [egg-security] use nosniff middleware
+2020-04-23 11:23:34,107 INFO 14748 [egg-security] use xssProtection middleware
+2020-04-23 11:23:34,108 INFO 14748 [egg-security] use xframe middleware
+2020-04-23 11:23:34,109 INFO 14748 [egg-security] use dta middleware
+2020-04-23 11:23:34,109 INFO 14748 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:23:34,123 INFO 14748 [egg:core] dump config after load, 7ms
+2020-04-23 11:23:34,146 INFO 14748 [egg-watcher:application] watcher start success
+2020-04-23 11:23:34,150 INFO 14748 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:23:34 GMT+0800 (GMT+08:00)
+2020-04-23 11:23:34,162 INFO 14748 [egg:core] dump config after ready, 10ms
+2020-04-23 11:23:39,178 INFO 14748 [egg-view-nunjucks] loading templates from ["C:\\Users\\zhang\\Desktop\\egg\\app\\view"]
+2020-04-23 11:23:57,053 ERROR 14748 [-/::1/-/20ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 14748
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:24:31,515 INFO 13260 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:24:31,563 INFO 13260 [egg-multipart] stream mode enable
+2020-04-23 11:24:31,565 INFO 13260 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:24:31,819 INFO 13260 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:24:31,827 INFO 13260 [egg-security] use csrf middleware
+2020-04-23 11:24:31,829 INFO 13260 [egg-security] use methodnoallow middleware
+2020-04-23 11:24:31,830 INFO 13260 [egg-security] use noopen middleware
+2020-04-23 11:24:31,832 INFO 13260 [egg-security] use nosniff middleware
+2020-04-23 11:24:31,833 INFO 13260 [egg-security] use xssProtection middleware
+2020-04-23 11:24:31,833 INFO 13260 [egg-security] use xframe middleware
+2020-04-23 11:24:31,834 INFO 13260 [egg-security] use dta middleware
+2020-04-23 11:24:31,834 INFO 13260 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:24:31,858 INFO 13260 [egg:core] dump config after load, 13ms
+2020-04-23 11:24:31,885 INFO 13260 [egg-watcher:application] watcher start success
+2020-04-23 11:24:31,891 INFO 13260 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:24:31 GMT+0800 (GMT+08:00)
+2020-04-23 11:24:31,907 INFO 13260 [egg:core] dump config after ready, 14ms
+2020-04-23 11:24:51,776 ERROR 13260 [-/::1/-/25ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13260
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:24:53,261 ERROR 13260 [-/::1/-/7ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13260
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:24:54,650 ERROR 13260 [-/::1/-/10ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13260
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:07,154 INFO 17448 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:25:07,193 INFO 17448 [egg-multipart] stream mode enable
+2020-04-23 11:25:07,196 INFO 17448 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:25:07,382 INFO 17448 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:25:07,386 INFO 17448 [egg-security] use csrf middleware
+2020-04-23 11:25:07,387 INFO 17448 [egg-security] use methodnoallow middleware
+2020-04-23 11:25:07,388 INFO 17448 [egg-security] use noopen middleware
+2020-04-23 11:25:07,390 INFO 17448 [egg-security] use nosniff middleware
+2020-04-23 11:25:07,390 INFO 17448 [egg-security] use xssProtection middleware
+2020-04-23 11:25:07,391 INFO 17448 [egg-security] use xframe middleware
+2020-04-23 11:25:07,393 INFO 17448 [egg-security] use dta middleware
+2020-04-23 11:25:07,393 INFO 17448 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:25:07,408 INFO 17448 [egg:core] dump config after load, 8ms
+2020-04-23 11:25:07,431 INFO 17448 [egg-watcher:application] watcher start success
+2020-04-23 11:25:07,434 INFO 17448 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:25:07 GMT+0800 (GMT+08:00)
+2020-04-23 11:25:07,449 INFO 17448 [egg:core] dump config after ready, 12ms
+2020-04-23 11:25:10,937 ERROR 17448 [-/::1/-/26ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17448
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:12,379 ERROR 17448 [-/::1/-/26ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17448
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:12,973 ERROR 17448 [-/::1/-/12ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17448
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:32,030 ERROR 17448 [-/::1/-/11ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:8:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17448
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:31,971 INFO 15052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:25:32,074 INFO 15052 [egg-multipart] stream mode enable
+2020-04-23 11:25:32,082 INFO 15052 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:25:32,669 INFO 15052 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:25:32,676 INFO 15052 [egg-security] use csrf middleware
+2020-04-23 11:25:32,678 INFO 15052 [egg-security] use methodnoallow middleware
+2020-04-23 11:25:32,679 INFO 15052 [egg-security] use noopen middleware
+2020-04-23 11:25:32,681 INFO 15052 [egg-security] use nosniff middleware
+2020-04-23 11:25:32,682 INFO 15052 [egg-security] use xssProtection middleware
+2020-04-23 11:25:32,683 INFO 15052 [egg-security] use xframe middleware
+2020-04-23 11:25:32,684 INFO 15052 [egg-security] use dta middleware
+2020-04-23 11:25:32,684 INFO 15052 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:25:32,710 INFO 15052 [egg:core] dump config after load, 14ms
+2020-04-23 11:25:32,754 INFO 15052 [egg-watcher:application] watcher start success
+2020-04-23 11:25:32,759 INFO 15052 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:25:32 GMT+0800 (GMT+08:00)
+2020-04-23 11:25:32,777 INFO 15052 [egg:core] dump config after ready, 16ms
+2020-04-23 11:25:34,529 ERROR 15052 [-/::1/-/10ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:7:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15052
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:53,513 ERROR 15052 [-/::1/-/2ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:7:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15052
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:25:53,321 INFO 9312 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:25:53,367 INFO 9312 [egg-multipart] stream mode enable
+2020-04-23 11:25:53,370 INFO 9312 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:25:53,793 INFO 9312 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:25:53,800 INFO 9312 [egg-security] use csrf middleware
+2020-04-23 11:25:53,807 INFO 9312 [egg-security] use methodnoallow middleware
+2020-04-23 11:25:53,808 INFO 9312 [egg-security] use noopen middleware
+2020-04-23 11:25:53,811 INFO 9312 [egg-security] use nosniff middleware
+2020-04-23 11:25:53,812 INFO 9312 [egg-security] use xssProtection middleware
+2020-04-23 11:25:53,813 INFO 9312 [egg-security] use xframe middleware
+2020-04-23 11:25:53,815 INFO 9312 [egg-security] use dta middleware
+2020-04-23 11:25:53,815 INFO 9312 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:25:53,856 INFO 9312 [egg:core] dump config after load, 23ms
+2020-04-23 11:25:53,904 INFO 9312 [egg-watcher:application] watcher start success
+2020-04-23 11:25:53,909 INFO 9312 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:25:53 GMT+0800 (GMT+08:00)
+2020-04-23 11:25:53,932 INFO 9312 [egg:core] dump config after ready, 19ms
+2020-04-23 11:25:55,743 ERROR 9312 [-/::1/-/9ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:7:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9312
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:26:04,840 ERROR 9312 [-/::1/-/1ms GET /user] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.user (C:\Users\zhang\Desktop\egg\app\controller\user.js:7:41)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9312
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:26:05,404 INFO 9276 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:26:05,459 INFO 9276 [egg-multipart] stream mode enable
+2020-04-23 11:26:05,462 INFO 9276 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:26:05,722 INFO 9276 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:26:05,726 INFO 9276 [egg-security] use csrf middleware
+2020-04-23 11:26:05,727 INFO 9276 [egg-security] use methodnoallow middleware
+2020-04-23 11:26:05,728 INFO 9276 [egg-security] use noopen middleware
+2020-04-23 11:26:05,730 INFO 9276 [egg-security] use nosniff middleware
+2020-04-23 11:26:05,730 INFO 9276 [egg-security] use xssProtection middleware
+2020-04-23 11:26:05,731 INFO 9276 [egg-security] use xframe middleware
+2020-04-23 11:26:05,733 INFO 9276 [egg-security] use dta middleware
+2020-04-23 11:26:05,733 INFO 9276 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:26:05,753 INFO 9276 [egg:core] dump config after load, 12ms
+2020-04-23 11:26:05,784 INFO 9276 [egg-watcher:application] watcher start success
+2020-04-23 11:26:05,788 INFO 9276 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:26:05 GMT+0800 (GMT+08:00)
+2020-04-23 11:26:05,803 INFO 9276 [egg:core] dump config after ready, 13ms
+2020-04-23 11:27:02,660 ERROR 9488 [-/::1/-/17ms GET /user] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table '1112.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `id` = 11 LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table '1112.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `users` WHERE `id` = 11 LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9488
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:27:01,890 INFO 9488 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:27:01,933 INFO 9488 [egg-multipart] stream mode enable
+2020-04-23 11:27:01,936 INFO 9488 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:27:02,151 INFO 9488 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:27:02,156 INFO 9488 [egg-security] use csrf middleware
+2020-04-23 11:27:02,159 INFO 9488 [egg-security] use methodnoallow middleware
+2020-04-23 11:27:02,160 INFO 9488 [egg-security] use noopen middleware
+2020-04-23 11:27:02,161 INFO 9488 [egg-security] use nosniff middleware
+2020-04-23 11:27:02,162 INFO 9488 [egg-security] use xssProtection middleware
+2020-04-23 11:27:02,163 INFO 9488 [egg-security] use xframe middleware
+2020-04-23 11:27:02,163 INFO 9488 [egg-security] use dta middleware
+2020-04-23 11:27:02,163 INFO 9488 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:27:02,180 INFO 9488 [egg:core] dump config after load, 9ms
+2020-04-23 11:27:02,206 INFO 9488 [egg-watcher:application] watcher start success
+2020-04-23 11:27:02,210 INFO 9488 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:27:02 GMT+0800 (GMT+08:00)
+2020-04-23 11:27:02,224 INFO 9488 [egg:core] dump config after ready, 12ms
+2020-04-23 11:27:09,082 ERROR 9488 [-/::1/-/2ms GET /user] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table '1112.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `id` = 11 LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table '1112.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `users` WHERE `id` = 11 LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9488
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 11:28:42,190 INFO 6104 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:28:42,231 INFO 6104 [egg-multipart] stream mode enable
+2020-04-23 11:28:42,233 INFO 6104 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:28:42,486 INFO 6104 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:28:42,490 INFO 6104 [egg-security] use csrf middleware
+2020-04-23 11:28:42,491 INFO 6104 [egg-security] use methodnoallow middleware
+2020-04-23 11:28:42,492 INFO 6104 [egg-security] use noopen middleware
+2020-04-23 11:28:42,494 INFO 6104 [egg-security] use nosniff middleware
+2020-04-23 11:28:42,494 INFO 6104 [egg-security] use xssProtection middleware
+2020-04-23 11:28:42,495 INFO 6104 [egg-security] use xframe middleware
+2020-04-23 11:28:42,496 INFO 6104 [egg-security] use dta middleware
+2020-04-23 11:28:42,496 INFO 6104 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:28:42,511 INFO 6104 [egg:core] dump config after load, 9ms
+2020-04-23 11:28:42,531 INFO 6104 [egg-watcher:application] watcher start success
+2020-04-23 11:28:42,538 INFO 6104 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:28:42 GMT+0800 (GMT+08:00)
+2020-04-23 11:28:42,552 INFO 6104 [egg:core] dump config after ready, 11ms
+2020-04-23 11:29:09,037 INFO 6504 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:29:09,080 INFO 6504 [egg-multipart] stream mode enable
+2020-04-23 11:29:09,081 INFO 6504 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:29:09,289 INFO 6504 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:29:09,296 INFO 6504 [egg-security] use csrf middleware
+2020-04-23 11:29:09,297 INFO 6504 [egg-security] use methodnoallow middleware
+2020-04-23 11:29:09,298 INFO 6504 [egg-security] use noopen middleware
+2020-04-23 11:29:09,300 INFO 6504 [egg-security] use nosniff middleware
+2020-04-23 11:29:09,301 INFO 6504 [egg-security] use xssProtection middleware
+2020-04-23 11:29:09,302 INFO 6504 [egg-security] use xframe middleware
+2020-04-23 11:29:09,302 INFO 6504 [egg-security] use dta middleware
+2020-04-23 11:29:09,302 INFO 6504 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:29:09,317 INFO 6504 [egg:core] dump config after load, 8ms
+2020-04-23 11:29:09,335 INFO 6504 [egg-watcher:application] watcher start success
+2020-04-23 11:29:09,342 INFO 6504 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:29:09 GMT+0800 (GMT+08:00)
+2020-04-23 11:29:09,353 INFO 6504 [egg:core] dump config after ready, 8ms
+2020-04-23 11:29:43,081 INFO 17340 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 11:29:43,121 INFO 17340 [egg-multipart] stream mode enable
+2020-04-23 11:29:43,123 INFO 17340 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 11:29:43,337 INFO 17340 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 11:29:43,340 INFO 17340 [egg-security] use csrf middleware
+2020-04-23 11:29:43,342 INFO 17340 [egg-security] use methodnoallow middleware
+2020-04-23 11:29:43,343 INFO 17340 [egg-security] use noopen middleware
+2020-04-23 11:29:43,344 INFO 17340 [egg-security] use nosniff middleware
+2020-04-23 11:29:43,345 INFO 17340 [egg-security] use xssProtection middleware
+2020-04-23 11:29:43,346 INFO 17340 [egg-security] use xframe middleware
+2020-04-23 11:29:43,346 INFO 17340 [egg-security] use dta middleware
+2020-04-23 11:29:43,346 INFO 17340 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 11:29:43,365 INFO 17340 [egg:core] dump config after load, 11ms
+2020-04-23 11:29:43,392 INFO 17340 [egg-watcher:application] watcher start success
+2020-04-23 11:29:43,395 INFO 17340 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 11:29:43 GMT+0800 (GMT+08:00)
+2020-04-23 11:29:43,407 INFO 17340 [egg:core] dump config after ready, 10ms
+2020-04-23 15:02:43,246 INFO 12112 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 15:02:43,412 INFO 12112 [egg-multipart] stream mode enable
+2020-04-23 15:02:43,416 INFO 12112 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 15:02:43,855 INFO 12112 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 15:02:43,867 INFO 12112 [egg-security] use csrf middleware
+2020-04-23 15:02:43,869 INFO 12112 [egg-security] use methodnoallow middleware
+2020-04-23 15:02:43,869 INFO 12112 [egg-security] use noopen middleware
+2020-04-23 15:02:43,871 INFO 12112 [egg-security] use nosniff middleware
+2020-04-23 15:02:43,873 INFO 12112 [egg-security] use xssProtection middleware
+2020-04-23 15:02:43,874 INFO 12112 [egg-security] use xframe middleware
+2020-04-23 15:02:43,875 INFO 12112 [egg-security] use dta middleware
+2020-04-23 15:02:43,876 INFO 12112 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 15:02:43,891 INFO 12112 [egg:core] dump config after load, 8ms
+2020-04-23 15:02:43,920 INFO 12112 [egg-watcher:application] watcher start success
+2020-04-23 15:02:43,945 INFO 12112 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 15:02:43 GMT+0800 (GMT+08:00)
+2020-04-23 15:02:43,961 INFO 12112 [egg:core] dump config after ready, 13ms
+2020-04-23 15:02:59,221 INFO 10988 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 15:02:59,289 INFO 10988 [egg-multipart] stream mode enable
+2020-04-23 15:02:59,295 INFO 10988 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 15:02:59,661 INFO 10988 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 15:02:59,668 INFO 10988 [egg-security] use csrf middleware
+2020-04-23 15:02:59,674 INFO 10988 [egg-security] use methodnoallow middleware
+2020-04-23 15:02:59,676 INFO 10988 [egg-security] use noopen middleware
+2020-04-23 15:02:59,679 INFO 10988 [egg-security] use nosniff middleware
+2020-04-23 15:02:59,681 INFO 10988 [egg-security] use xssProtection middleware
+2020-04-23 15:02:59,682 INFO 10988 [egg-security] use xframe middleware
+2020-04-23 15:02:59,684 INFO 10988 [egg-security] use dta middleware
+2020-04-23 15:02:59,684 INFO 10988 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 15:02:59,714 INFO 10988 [egg:core] dump config after load, 17ms
+2020-04-23 15:02:59,773 INFO 10988 [egg-watcher:application] watcher start success
+2020-04-23 15:02:59,777 INFO 10988 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 15:02:59 GMT+0800 (GMT+08:00)
+2020-04-23 15:02:59,796 INFO 10988 [egg:core] dump config after ready, 16ms
+2020-04-23 15:03:01,878 INFO 6876 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 15:03:01,916 INFO 6876 [egg-multipart] stream mode enable
+2020-04-23 15:03:01,917 INFO 6876 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 15:03:02,121 INFO 6876 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 15:03:02,125 INFO 6876 [egg-security] use csrf middleware
+2020-04-23 15:03:02,127 INFO 6876 [egg-security] use methodnoallow middleware
+2020-04-23 15:03:02,128 INFO 6876 [egg-security] use noopen middleware
+2020-04-23 15:03:02,129 INFO 6876 [egg-security] use nosniff middleware
+2020-04-23 15:03:02,130 INFO 6876 [egg-security] use xssProtection middleware
+2020-04-23 15:03:02,130 INFO 6876 [egg-security] use xframe middleware
+2020-04-23 15:03:02,131 INFO 6876 [egg-security] use dta middleware
+2020-04-23 15:03:02,131 INFO 6876 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 15:03:02,146 INFO 6876 [egg:core] dump config after load, 8ms
+2020-04-23 15:03:02,186 INFO 6876 [egg-watcher:application] watcher start success
+2020-04-23 15:03:02,191 INFO 6876 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 15:03:02 GMT+0800 (GMT+08:00)
+2020-04-23 15:03:02,255 INFO 6876 [egg:core] dump config after ready, 52ms
+2020-04-23 16:37:06,118 INFO 9444 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:37:06,159 INFO 9444 [egg-multipart] stream mode enable
+2020-04-23 16:37:06,161 INFO 9444 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:37:06,410 INFO 9444 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:37:06,415 INFO 9444 [egg-security] use csrf middleware
+2020-04-23 16:37:06,417 INFO 9444 [egg-security] use methodnoallow middleware
+2020-04-23 16:37:06,419 INFO 9444 [egg-security] use noopen middleware
+2020-04-23 16:37:06,420 INFO 9444 [egg-security] use nosniff middleware
+2020-04-23 16:37:06,422 INFO 9444 [egg-security] use xssProtection middleware
+2020-04-23 16:37:06,422 INFO 9444 [egg-security] use xframe middleware
+2020-04-23 16:37:06,424 INFO 9444 [egg-security] use dta middleware
+2020-04-23 16:37:06,424 INFO 9444 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:37:06,437 INFO 9444 [egg:core] dump config after load, 7ms
+2020-04-23 16:37:06,463 INFO 9444 [egg-watcher:application] watcher start success
+2020-04-23 16:37:06,496 INFO 9444 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:37:06 GMT+0800 (GMT+08:00)
+2020-04-23 16:37:06,509 INFO 9444 [egg:core] dump config after ready, 11ms
+2020-04-23 16:37:38,970 INFO 13420 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:37:39,037 INFO 13420 [egg-multipart] stream mode enable
+2020-04-23 16:37:39,040 INFO 13420 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:37:39,285 INFO 13420 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:37:39,290 INFO 13420 [egg-security] use csrf middleware
+2020-04-23 16:37:39,298 INFO 13420 [egg-security] use methodnoallow middleware
+2020-04-23 16:37:39,298 INFO 13420 [egg-security] use noopen middleware
+2020-04-23 16:37:39,300 INFO 13420 [egg-security] use nosniff middleware
+2020-04-23 16:37:39,301 INFO 13420 [egg-security] use xssProtection middleware
+2020-04-23 16:37:39,302 INFO 13420 [egg-security] use xframe middleware
+2020-04-23 16:37:39,303 INFO 13420 [egg-security] use dta middleware
+2020-04-23 16:37:39,303 INFO 13420 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:37:39,321 INFO 13420 [egg:core] dump config after load, 8ms
+2020-04-23 16:37:39,351 INFO 13420 [egg-watcher:application] watcher start success
+2020-04-23 16:37:39,357 INFO 13420 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:37:39 GMT+0800 (GMT+08:00)
+2020-04-23 16:37:39,378 INFO 13420 [egg:core] dump config after ready, 18ms
+2020-04-23 16:37:49,789 INFO 9208 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:37:49,827 INFO 9208 [egg-multipart] stream mode enable
+2020-04-23 16:37:49,829 INFO 9208 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:37:50,023 INFO 9208 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:37:50,027 INFO 9208 [egg-security] use csrf middleware
+2020-04-23 16:37:50,029 INFO 9208 [egg-security] use methodnoallow middleware
+2020-04-23 16:37:50,029 INFO 9208 [egg-security] use noopen middleware
+2020-04-23 16:37:50,031 INFO 9208 [egg-security] use nosniff middleware
+2020-04-23 16:37:50,032 INFO 9208 [egg-security] use xssProtection middleware
+2020-04-23 16:37:50,032 INFO 9208 [egg-security] use xframe middleware
+2020-04-23 16:37:50,033 INFO 9208 [egg-security] use dta middleware
+2020-04-23 16:37:50,033 INFO 9208 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:37:50,049 INFO 9208 [egg:core] dump config after load, 9ms
+2020-04-23 16:37:50,074 INFO 9208 [egg-watcher:application] watcher start success
+2020-04-23 16:37:50,077 INFO 9208 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:37:50 GMT+0800 (GMT+08:00)
+2020-04-23 16:37:50,092 INFO 9208 [egg:core] dump config after ready, 12ms
+2020-04-23 16:39:33,383 INFO 14928 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:39:33,444 INFO 14928 [egg-multipart] stream mode enable
+2020-04-23 16:39:33,447 INFO 14928 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:39:33,711 INFO 14928 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:39:33,717 INFO 14928 [egg-security] use csrf middleware
+2020-04-23 16:39:33,718 INFO 14928 [egg-security] use methodnoallow middleware
+2020-04-23 16:39:33,720 INFO 14928 [egg-security] use noopen middleware
+2020-04-23 16:39:33,722 INFO 14928 [egg-security] use nosniff middleware
+2020-04-23 16:39:33,723 INFO 14928 [egg-security] use xssProtection middleware
+2020-04-23 16:39:33,724 INFO 14928 [egg-security] use xframe middleware
+2020-04-23 16:39:33,725 INFO 14928 [egg-security] use dta middleware
+2020-04-23 16:39:33,725 INFO 14928 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:39:33,742 INFO 14928 [egg:core] dump config after load, 8ms
+2020-04-23 16:39:33,773 INFO 14928 [egg-watcher:application] watcher start success
+2020-04-23 16:39:33,775 INFO 14928 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:39:33 GMT+0800 (GMT+08:00)
+2020-04-23 16:39:33,792 INFO 14928 [egg:core] dump config after ready, 14ms
+2020-04-23 16:39:38,392 INFO 13680 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:39:38,554 INFO 13680 [egg-multipart] stream mode enable
+2020-04-23 16:39:38,557 INFO 13680 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:39:39,410 INFO 13680 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:39:39,457 INFO 13680 [egg-security] use csrf middleware
+2020-04-23 16:39:39,465 INFO 13680 [egg-security] use methodnoallow middleware
+2020-04-23 16:39:39,466 INFO 13680 [egg-security] use noopen middleware
+2020-04-23 16:39:39,469 INFO 13680 [egg-security] use nosniff middleware
+2020-04-23 16:39:39,473 INFO 13680 [egg-security] use xssProtection middleware
+2020-04-23 16:39:39,487 INFO 13680 [egg-security] use xframe middleware
+2020-04-23 16:39:39,488 INFO 13680 [egg-security] use dta middleware
+2020-04-23 16:39:39,488 INFO 13680 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:39:39,632 INFO 13680 [egg:core] dump config after load, 116ms
+2020-04-23 16:39:39,746 INFO 13680 [egg-watcher:application] watcher start success
+2020-04-23 16:39:39,758 INFO 13680 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:39:39 GMT+0800 (GMT+08:00)
+2020-04-23 16:39:39,784 INFO 13680 [egg:core] dump config after ready, 22ms
+2020-04-23 16:39:44,887 INFO 18216 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:39:44,991 INFO 18216 [egg-multipart] stream mode enable
+2020-04-23 16:39:44,994 INFO 18216 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:39:45,320 INFO 18216 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:39:45,327 INFO 18216 [egg-security] use csrf middleware
+2020-04-23 16:39:45,332 INFO 18216 [egg-security] use methodnoallow middleware
+2020-04-23 16:39:45,333 INFO 18216 [egg-security] use noopen middleware
+2020-04-23 16:39:45,336 INFO 18216 [egg-security] use nosniff middleware
+2020-04-23 16:39:45,337 INFO 18216 [egg-security] use xssProtection middleware
+2020-04-23 16:39:45,338 INFO 18216 [egg-security] use xframe middleware
+2020-04-23 16:39:45,340 INFO 18216 [egg-security] use dta middleware
+2020-04-23 16:39:45,340 INFO 18216 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:39:45,368 INFO 18216 [egg:core] dump config after load, 13ms
+2020-04-23 16:39:45,409 INFO 18216 [egg-watcher:application] watcher start success
+2020-04-23 16:39:45,417 INFO 18216 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:39:45 GMT+0800 (GMT+08:00)
+2020-04-23 16:39:45,438 INFO 18216 [egg:core] dump config after ready, 17ms
+2020-04-23 16:39:50,760 INFO 6684 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:39:50,943 INFO 6684 [egg-multipart] stream mode enable
+2020-04-23 16:39:50,946 INFO 6684 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:39:51,383 INFO 6684 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:39:51,393 INFO 6684 [egg-security] use csrf middleware
+2020-04-23 16:39:51,397 INFO 6684 [egg-security] use methodnoallow middleware
+2020-04-23 16:39:51,398 INFO 6684 [egg-security] use noopen middleware
+2020-04-23 16:39:51,401 INFO 6684 [egg-security] use nosniff middleware
+2020-04-23 16:39:51,406 INFO 6684 [egg-security] use xssProtection middleware
+2020-04-23 16:39:51,413 INFO 6684 [egg-security] use xframe middleware
+2020-04-23 16:39:51,414 INFO 6684 [egg-security] use dta middleware
+2020-04-23 16:39:51,414 INFO 6684 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:39:51,450 INFO 6684 [egg:core] dump config after load, 17ms
+2020-04-23 16:39:51,509 INFO 6684 [egg-watcher:application] watcher start success
+2020-04-23 16:39:51,514 INFO 6684 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:39:51 GMT+0800 (GMT+08:00)
+2020-04-23 16:39:51,535 INFO 6684 [egg:core] dump config after ready, 17ms
+2020-04-23 16:39:53,917 INFO 7484 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:39:54,026 INFO 7484 [egg-multipart] stream mode enable
+2020-04-23 16:39:54,028 INFO 7484 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:39:54,395 INFO 7484 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:39:54,401 INFO 7484 [egg-security] use csrf middleware
+2020-04-23 16:39:54,405 INFO 7484 [egg-security] use methodnoallow middleware
+2020-04-23 16:39:54,407 INFO 7484 [egg-security] use noopen middleware
+2020-04-23 16:39:54,409 INFO 7484 [egg-security] use nosniff middleware
+2020-04-23 16:39:54,410 INFO 7484 [egg-security] use xssProtection middleware
+2020-04-23 16:39:54,411 INFO 7484 [egg-security] use xframe middleware
+2020-04-23 16:39:54,411 INFO 7484 [egg-security] use dta middleware
+2020-04-23 16:39:54,411 INFO 7484 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:39:54,433 INFO 7484 [egg:core] dump config after load, 10ms
+2020-04-23 16:39:54,474 INFO 7484 [egg-watcher:application] watcher start success
+2020-04-23 16:39:54,476 INFO 7484 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:39:54 GMT+0800 (GMT+08:00)
+2020-04-23 16:39:54,500 INFO 7484 [egg:core] dump config after ready, 21ms
+2020-04-23 16:42:03,916 INFO 14628 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:42:03,960 INFO 14628 [egg-multipart] stream mode enable
+2020-04-23 16:42:03,961 INFO 14628 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:42:04,158 INFO 14628 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:42:04,162 INFO 14628 [egg-security] use csrf middleware
+2020-04-23 16:42:04,164 INFO 14628 [egg-security] use methodnoallow middleware
+2020-04-23 16:42:04,165 INFO 14628 [egg-security] use noopen middleware
+2020-04-23 16:42:04,166 INFO 14628 [egg-security] use nosniff middleware
+2020-04-23 16:42:04,167 INFO 14628 [egg-security] use xssProtection middleware
+2020-04-23 16:42:04,168 INFO 14628 [egg-security] use xframe middleware
+2020-04-23 16:42:04,169 INFO 14628 [egg-security] use dta middleware
+2020-04-23 16:42:04,169 INFO 14628 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:42:04,185 INFO 14628 [egg:core] dump config after load, 8ms
+2020-04-23 16:42:04,208 INFO 14628 [egg-watcher:application] watcher start success
+2020-04-23 16:42:04,212 INFO 14628 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:42:04 GMT+0800 (GMT+08:00)
+2020-04-23 16:42:04,225 INFO 14628 [egg:core] dump config after ready, 11ms
+2020-04-23 16:44:26,874 INFO 18600 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:44:26,910 INFO 18600 [egg-multipart] stream mode enable
+2020-04-23 16:44:26,912 INFO 18600 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:44:27,115 INFO 18600 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:44:27,119 INFO 18600 [egg-security] use csrf middleware
+2020-04-23 16:44:27,120 INFO 18600 [egg-security] use methodnoallow middleware
+2020-04-23 16:44:27,121 INFO 18600 [egg-security] use noopen middleware
+2020-04-23 16:44:27,123 INFO 18600 [egg-security] use nosniff middleware
+2020-04-23 16:44:27,124 INFO 18600 [egg-security] use xssProtection middleware
+2020-04-23 16:44:27,125 INFO 18600 [egg-security] use xframe middleware
+2020-04-23 16:44:27,125 INFO 18600 [egg-security] use dta middleware
+2020-04-23 16:44:27,125 INFO 18600 [egg-security] compose 7 middlewares into one security middleware
+2020-04-23 16:44:27,140 INFO 18600 [egg:core] dump config after load, 6ms
+2020-04-23 16:44:27,167 INFO 18600 [egg-watcher:application] watcher start success
+2020-04-23 16:44:27,169 INFO 18600 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:44:27 GMT+0800 (GMT+08:00)
+2020-04-23 16:44:27,184 INFO 18600 [egg:core] dump config after ready, 13ms
+2020-04-23 16:46:43,528 INFO 4004 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:46:43,573 INFO 4004 [egg-multipart] stream mode enable
+2020-04-23 16:46:43,575 INFO 4004 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:46:43,938 INFO 4004 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:46:43,945 INFO 4004 [egg-security] use methodnoallow middleware
+2020-04-23 16:46:43,946 INFO 4004 [egg-security] use noopen middleware
+2020-04-23 16:46:43,947 INFO 4004 [egg-security] use nosniff middleware
+2020-04-23 16:46:43,948 INFO 4004 [egg-security] use xssProtection middleware
+2020-04-23 16:46:43,949 INFO 4004 [egg-security] use xframe middleware
+2020-04-23 16:46:43,950 INFO 4004 [egg-security] use dta middleware
+2020-04-23 16:46:43,950 INFO 4004 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:46:43,987 INFO 4004 [egg:core] dump config after load, 12ms
+2020-04-23 16:46:44,024 INFO 4004 [egg-watcher:application] watcher start success
+2020-04-23 16:46:44,027 INFO 4004 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:46:44 GMT+0800 (GMT+08:00)
+2020-04-23 16:46:44,039 INFO 4004 [egg:core] dump config after ready, 10ms
+2020-04-23 16:47:16,222 INFO 14864 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:47:16,259 INFO 14864 [egg-multipart] stream mode enable
+2020-04-23 16:47:16,261 INFO 14864 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:47:16,480 INFO 14864 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:47:16,485 INFO 14864 [egg-security] use methodnoallow middleware
+2020-04-23 16:47:16,486 INFO 14864 [egg-security] use noopen middleware
+2020-04-23 16:47:16,487 INFO 14864 [egg-security] use nosniff middleware
+2020-04-23 16:47:16,488 INFO 14864 [egg-security] use xssProtection middleware
+2020-04-23 16:47:16,489 INFO 14864 [egg-security] use xframe middleware
+2020-04-23 16:47:16,489 INFO 14864 [egg-security] use dta middleware
+2020-04-23 16:47:16,489 INFO 14864 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:47:16,509 INFO 14864 [egg:core] dump config after load, 9ms
+2020-04-23 16:47:16,531 INFO 14864 [egg-watcher:application] watcher start success
+2020-04-23 16:47:16,535 INFO 14864 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:47:16 GMT+0800 (GMT+08:00)
+2020-04-23 16:47:16,549 INFO 14864 [egg:core] dump config after ready, 11ms
+2020-04-23 16:47:29,064 INFO 11248 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:47:29,202 INFO 11248 [egg-multipart] stream mode enable
+2020-04-23 16:47:29,207 INFO 11248 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:47:29,408 INFO 11248 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:47:29,411 INFO 11248 [egg-security] use methodnoallow middleware
+2020-04-23 16:47:29,412 INFO 11248 [egg-security] use noopen middleware
+2020-04-23 16:47:29,414 INFO 11248 [egg-security] use nosniff middleware
+2020-04-23 16:47:29,415 INFO 11248 [egg-security] use xssProtection middleware
+2020-04-23 16:47:29,415 INFO 11248 [egg-security] use xframe middleware
+2020-04-23 16:47:29,416 INFO 11248 [egg-security] use dta middleware
+2020-04-23 16:47:29,416 INFO 11248 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:47:29,432 INFO 11248 [egg:core] dump config after load, 8ms
+2020-04-23 16:47:29,455 INFO 11248 [egg-watcher:application] watcher start success
+2020-04-23 16:47:29,459 INFO 11248 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:47:29 GMT+0800 (GMT+08:00)
+2020-04-23 16:47:29,543 INFO 11248 [egg:core] dump config after ready, 81ms
+2020-04-23 16:48:44,050 ERROR 11248 [-/::1/-/11ms GET /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11248
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:53:06,078 ERROR 11248 [-/::1/-/9ms GET /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11248
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:54:39,410 ERROR 11248 [-/::1/-/4ms GET /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11248
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:55:48,761 ERROR 11248 [-/::1/-/2ms GET /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11248
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:56:42,148 ERROR 11248 [-/::1/-/3ms GET /login?name=cpic&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11248
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:58:03,389 INFO 7900 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:58:03,427 INFO 7900 [egg-multipart] stream mode enable
+2020-04-23 16:58:03,429 INFO 7900 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:58:03,647 INFO 7900 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:58:03,651 INFO 7900 [egg-security] use methodnoallow middleware
+2020-04-23 16:58:03,652 INFO 7900 [egg-security] use noopen middleware
+2020-04-23 16:58:03,656 INFO 7900 [egg-security] use nosniff middleware
+2020-04-23 16:58:03,657 INFO 7900 [egg-security] use xssProtection middleware
+2020-04-23 16:58:03,657 INFO 7900 [egg-security] use xframe middleware
+2020-04-23 16:58:03,658 INFO 7900 [egg-security] use dta middleware
+2020-04-23 16:58:03,658 INFO 7900 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:58:03,680 INFO 7900 [egg:core] dump config after load, 14ms
+2020-04-23 16:58:03,708 INFO 7900 [egg-watcher:application] watcher start success
+2020-04-23 16:58:03,712 INFO 7900 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:58:03 GMT+0800 (GMT+08:00)
+2020-04-23 16:58:03,725 INFO 7900 [egg:core] dump config after ready, 12ms
+2020-04-23 16:58:13,816 ERROR 7900 [-/::1/-/38ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 7900
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:58:53,442 ERROR 3956 [-/::1/-/22ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` IS NULL AND `password` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3956
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 16:58:52,547 INFO 3956 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:58:52,595 INFO 3956 [egg-multipart] stream mode enable
+2020-04-23 16:58:52,598 INFO 3956 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:58:52,865 INFO 3956 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:58:52,870 INFO 3956 [egg-security] use methodnoallow middleware
+2020-04-23 16:58:52,870 INFO 3956 [egg-security] use noopen middleware
+2020-04-23 16:58:52,872 INFO 3956 [egg-security] use nosniff middleware
+2020-04-23 16:58:52,873 INFO 3956 [egg-security] use xssProtection middleware
+2020-04-23 16:58:52,873 INFO 3956 [egg-security] use xframe middleware
+2020-04-23 16:58:52,874 INFO 3956 [egg-security] use dta middleware
+2020-04-23 16:58:52,874 INFO 3956 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:58:52,892 INFO 3956 [egg:core] dump config after load, 9ms
+2020-04-23 16:58:52,913 INFO 3956 [egg-watcher:application] watcher start success
+2020-04-23 16:58:52,917 INFO 3956 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:58:52 GMT+0800 (GMT+08:00)
+2020-04-23 16:58:52,931 INFO 3956 [egg:core] dump config after ready, 12ms
+2020-04-23 16:59:27,047 INFO 20304 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 16:59:27,129 INFO 20304 [egg-multipart] stream mode enable
+2020-04-23 16:59:27,132 INFO 20304 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 16:59:27,700 INFO 20304 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 16:59:27,707 INFO 20304 [egg-security] use methodnoallow middleware
+2020-04-23 16:59:27,709 INFO 20304 [egg-security] use noopen middleware
+2020-04-23 16:59:27,712 INFO 20304 [egg-security] use nosniff middleware
+2020-04-23 16:59:27,713 INFO 20304 [egg-security] use xssProtection middleware
+2020-04-23 16:59:27,714 INFO 20304 [egg-security] use xframe middleware
+2020-04-23 16:59:27,715 INFO 20304 [egg-security] use dta middleware
+2020-04-23 16:59:27,715 INFO 20304 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 16:59:27,747 INFO 20304 [egg:core] dump config after load, 16ms
+2020-04-23 16:59:27,785 INFO 20304 [egg-watcher:application] watcher start success
+2020-04-23 16:59:27,791 INFO 20304 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 16:59:27 GMT+0800 (GMT+08:00)
+2020-04-23 16:59:27,809 INFO 20304 [egg:core] dump config after ready, 15ms
+2020-04-23 17:00:09,699 INFO 1768 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:00:09,742 INFO 1768 [egg-multipart] stream mode enable
+2020-04-23 17:00:09,744 INFO 1768 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:00:10,150 INFO 1768 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:00:10,170 INFO 1768 [egg-security] use methodnoallow middleware
+2020-04-23 17:00:10,179 INFO 1768 [egg-security] use noopen middleware
+2020-04-23 17:00:10,182 INFO 1768 [egg-security] use nosniff middleware
+2020-04-23 17:00:10,196 INFO 1768 [egg-security] use xssProtection middleware
+2020-04-23 17:00:10,198 INFO 1768 [egg-security] use xframe middleware
+2020-04-23 17:00:10,199 INFO 1768 [egg-security] use dta middleware
+2020-04-23 17:00:10,199 INFO 1768 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:00:10,244 INFO 1768 [egg:core] dump config after load, 19ms
+2020-04-23 17:00:10,290 INFO 1768 [egg-watcher:application] watcher start success
+2020-04-23 17:00:10,295 INFO 1768 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:00:10 GMT+0800 (GMT+08:00)
+2020-04-23 17:00:10,323 INFO 1768 [egg:core] dump config after ready, 25ms
+2020-04-23 17:04:22,761 INFO 15764 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:04:22,805 INFO 15764 [egg-multipart] stream mode enable
+2020-04-23 17:04:22,806 INFO 15764 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:04:23,196 INFO 15764 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:04:23,204 INFO 15764 [egg-security] use methodnoallow middleware
+2020-04-23 17:04:23,205 INFO 15764 [egg-security] use noopen middleware
+2020-04-23 17:04:23,207 INFO 15764 [egg-security] use nosniff middleware
+2020-04-23 17:04:23,208 INFO 15764 [egg-security] use xssProtection middleware
+2020-04-23 17:04:23,209 INFO 15764 [egg-security] use xframe middleware
+2020-04-23 17:04:23,209 INFO 15764 [egg-security] use dta middleware
+2020-04-23 17:04:23,209 INFO 15764 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:04:23,226 INFO 15764 [egg:core] dump config after load, 8ms
+2020-04-23 17:04:23,252 INFO 15764 [egg-watcher:application] watcher start success
+2020-04-23 17:04:23,261 INFO 15764 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:04:23 GMT+0800 (GMT+08:00)
+2020-04-23 17:04:23,329 INFO 15764 [egg:core] dump config after ready, 55ms
+2020-04-23 17:05:40,965 INFO 1424 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:05:41,036 INFO 1424 [egg-multipart] stream mode enable
+2020-04-23 17:05:41,038 INFO 1424 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:05:41,277 INFO 1424 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:05:41,280 INFO 1424 [egg-security] use methodnoallow middleware
+2020-04-23 17:05:41,281 INFO 1424 [egg-security] use noopen middleware
+2020-04-23 17:05:41,283 INFO 1424 [egg-security] use nosniff middleware
+2020-04-23 17:05:41,283 INFO 1424 [egg-security] use xssProtection middleware
+2020-04-23 17:05:41,284 INFO 1424 [egg-security] use xframe middleware
+2020-04-23 17:05:41,286 INFO 1424 [egg-security] use dta middleware
+2020-04-23 17:05:41,286 INFO 1424 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:05:41,302 INFO 1424 [egg:core] dump config after load, 9ms
+2020-04-23 17:05:41,321 INFO 1424 [egg-watcher:application] watcher start success
+2020-04-23 17:05:41,327 INFO 1424 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:05:41 GMT+0800 (GMT+08:00)
+2020-04-23 17:05:41,340 INFO 1424 [egg:core] dump config after ready, 10ms
+2020-04-23 17:06:00,368 INFO 14812 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:06:00,620 INFO 14812 [egg-multipart] stream mode enable
+2020-04-23 17:06:00,628 INFO 14812 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:06:01,245 INFO 14812 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:06:01,248 INFO 14812 [egg-security] use methodnoallow middleware
+2020-04-23 17:06:01,249 INFO 14812 [egg-security] use noopen middleware
+2020-04-23 17:06:01,251 INFO 14812 [egg-security] use nosniff middleware
+2020-04-23 17:06:01,252 INFO 14812 [egg-security] use xssProtection middleware
+2020-04-23 17:06:01,253 INFO 14812 [egg-security] use xframe middleware
+2020-04-23 17:06:01,255 INFO 14812 [egg-security] use dta middleware
+2020-04-23 17:06:01,255 INFO 14812 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:06:01,274 INFO 14812 [egg:core] dump config after load, 10ms
+2020-04-23 17:06:01,302 INFO 14812 [egg-watcher:application] watcher start success
+2020-04-23 17:06:01,305 INFO 14812 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:06:01 GMT+0800 (GMT+08:00)
+2020-04-23 17:06:01,338 INFO 14812 [egg:core] dump config after ready, 28ms
+2020-04-23 17:06:19,400 INFO 6384 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:06:19,436 INFO 6384 [egg-multipart] stream mode enable
+2020-04-23 17:06:19,438 INFO 6384 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:06:19,765 INFO 6384 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:06:19,769 INFO 6384 [egg-security] use methodnoallow middleware
+2020-04-23 17:06:19,770 INFO 6384 [egg-security] use noopen middleware
+2020-04-23 17:06:19,772 INFO 6384 [egg-security] use nosniff middleware
+2020-04-23 17:06:19,773 INFO 6384 [egg-security] use xssProtection middleware
+2020-04-23 17:06:19,773 INFO 6384 [egg-security] use xframe middleware
+2020-04-23 17:06:19,774 INFO 6384 [egg-security] use dta middleware
+2020-04-23 17:06:19,774 INFO 6384 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:06:19,790 INFO 6384 [egg:core] dump config after load, 9ms
+2020-04-23 17:06:19,812 INFO 6384 [egg-watcher:application] watcher start success
+2020-04-23 17:06:19,817 INFO 6384 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:06:19 GMT+0800 (GMT+08:00)
+2020-04-23 17:06:19,829 INFO 6384 [egg:core] dump config after ready, 10ms
+2020-04-23 17:06:45,740 INFO 7080 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:06:45,785 INFO 7080 [egg-multipart] stream mode enable
+2020-04-23 17:06:45,787 INFO 7080 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:06:45,992 INFO 7080 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:06:45,995 INFO 7080 [egg-security] use methodnoallow middleware
+2020-04-23 17:06:45,996 INFO 7080 [egg-security] use noopen middleware
+2020-04-23 17:06:45,998 INFO 7080 [egg-security] use nosniff middleware
+2020-04-23 17:06:45,998 INFO 7080 [egg-security] use xssProtection middleware
+2020-04-23 17:06:46,000 INFO 7080 [egg-security] use xframe middleware
+2020-04-23 17:06:46,001 INFO 7080 [egg-security] use dta middleware
+2020-04-23 17:06:46,001 INFO 7080 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:06:46,016 INFO 7080 [egg:core] dump config after load, 8ms
+2020-04-23 17:06:46,037 INFO 7080 [egg-watcher:application] watcher start success
+2020-04-23 17:06:46,041 INFO 7080 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:06:46 GMT+0800 (GMT+08:00)
+2020-04-23 17:06:46,053 INFO 7080 [egg:core] dump config after ready, 10ms
+2020-04-23 17:12:41,518 INFO 15084 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:12:41,559 INFO 15084 [egg-multipart] stream mode enable
+2020-04-23 17:12:41,561 INFO 15084 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:12:41,758 INFO 15084 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:12:41,761 INFO 15084 [egg-security] use methodnoallow middleware
+2020-04-23 17:12:41,762 INFO 15084 [egg-security] use noopen middleware
+2020-04-23 17:12:41,764 INFO 15084 [egg-security] use nosniff middleware
+2020-04-23 17:12:41,765 INFO 15084 [egg-security] use xssProtection middleware
+2020-04-23 17:12:41,765 INFO 15084 [egg-security] use xframe middleware
+2020-04-23 17:12:41,766 INFO 15084 [egg-security] use dta middleware
+2020-04-23 17:12:41,766 INFO 15084 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:12:41,782 INFO 15084 [egg:core] dump config after load, 8ms
+2020-04-23 17:12:41,805 INFO 15084 [egg-watcher:application] watcher start success
+2020-04-23 17:12:41,808 INFO 15084 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:12:41 GMT+0800 (GMT+08:00)
+2020-04-23 17:12:41,820 INFO 15084 [egg:core] dump config after ready, 10ms
+2020-04-23 17:12:46,532 INFO 18072 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:12:46,598 INFO 18072 [egg-multipart] stream mode enable
+2020-04-23 17:12:46,603 INFO 18072 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:12:46,888 INFO 18072 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:12:46,891 INFO 18072 [egg-security] use methodnoallow middleware
+2020-04-23 17:12:46,892 INFO 18072 [egg-security] use noopen middleware
+2020-04-23 17:12:46,893 INFO 18072 [egg-security] use nosniff middleware
+2020-04-23 17:12:46,894 INFO 18072 [egg-security] use xssProtection middleware
+2020-04-23 17:12:46,895 INFO 18072 [egg-security] use xframe middleware
+2020-04-23 17:12:46,895 INFO 18072 [egg-security] use dta middleware
+2020-04-23 17:12:46,895 INFO 18072 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:12:46,912 INFO 18072 [egg:core] dump config after load, 7ms
+2020-04-23 17:12:46,947 INFO 18072 [egg-watcher:application] watcher start success
+2020-04-23 17:12:46,952 INFO 18072 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:12:46 GMT+0800 (GMT+08:00)
+2020-04-23 17:12:46,966 INFO 18072 [egg:core] dump config after ready, 11ms
+2020-04-23 17:12:51,243 ERROR 18072 [-/::1/-/21ms GET /login?name=cpic&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` = 'cpic' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` = 'cpic' AND `password` = '123456' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18072
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 17:12:58,942 ERROR 18072 [-/::1/-/2ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18072
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 17:13:34,892 INFO 5740 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:13:34,931 INFO 5740 [egg-multipart] stream mode enable
+2020-04-23 17:13:34,933 INFO 5740 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:13:35,185 INFO 5740 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:13:35,189 INFO 5740 [egg-security] use methodnoallow middleware
+2020-04-23 17:13:35,190 INFO 5740 [egg-security] use noopen middleware
+2020-04-23 17:13:35,192 INFO 5740 [egg-security] use nosniff middleware
+2020-04-23 17:13:35,192 INFO 5740 [egg-security] use xssProtection middleware
+2020-04-23 17:13:35,193 INFO 5740 [egg-security] use xframe middleware
+2020-04-23 17:13:35,194 INFO 5740 [egg-security] use dta middleware
+2020-04-23 17:13:35,194 INFO 5740 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:13:35,212 INFO 5740 [egg:core] dump config after load, 9ms
+2020-04-23 17:13:35,237 INFO 5740 [egg-watcher:application] watcher start success
+2020-04-23 17:13:35,246 INFO 5740 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:13:35 GMT+0800 (GMT+08:00)
+2020-04-23 17:13:35,259 INFO 5740 [egg:core] dump config after ready, 11ms
+2020-04-23 17:13:36,491 ERROR 5740 [-/::1/-/25ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5740
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 17:13:37,368 ERROR 5740 [-/::1/-/3ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5740
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 17:13:37,569 ERROR 5740 [-/::1/-/2ms GET /login?name=root&password=123456] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\zhang\Desktop\egg\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\zhang\Desktop\egg\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'name' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `name` = 'root' AND `password` = '123456' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 5740
+hostname: DESKTOP-1JNFRSL
+
+2020-04-23 17:13:56,369 INFO 16612 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:13:56,448 INFO 16612 [egg-multipart] stream mode enable
+2020-04-23 17:13:56,453 INFO 16612 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:13:56,717 INFO 16612 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:13:56,722 INFO 16612 [egg-security] use methodnoallow middleware
+2020-04-23 17:13:56,723 INFO 16612 [egg-security] use noopen middleware
+2020-04-23 17:13:56,725 INFO 16612 [egg-security] use nosniff middleware
+2020-04-23 17:13:56,725 INFO 16612 [egg-security] use xssProtection middleware
+2020-04-23 17:13:56,726 INFO 16612 [egg-security] use xframe middleware
+2020-04-23 17:13:56,727 INFO 16612 [egg-security] use dta middleware
+2020-04-23 17:13:56,727 INFO 16612 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:13:56,745 INFO 16612 [egg:core] dump config after load, 9ms
+2020-04-23 17:13:56,783 INFO 16612 [egg-watcher:application] watcher start success
+2020-04-23 17:13:56,790 INFO 16612 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:13:56 GMT+0800 (GMT+08:00)
+2020-04-23 17:13:56,808 INFO 16612 [egg:core] dump config after ready, 14ms
+2020-04-23 17:14:06,759 INFO 17056 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:14:06,807 INFO 17056 [egg-multipart] stream mode enable
+2020-04-23 17:14:06,812 INFO 17056 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:14:07,116 INFO 17056 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:14:07,122 INFO 17056 [egg-security] use methodnoallow middleware
+2020-04-23 17:14:07,123 INFO 17056 [egg-security] use noopen middleware
+2020-04-23 17:14:07,126 INFO 17056 [egg-security] use nosniff middleware
+2020-04-23 17:14:07,128 INFO 17056 [egg-security] use xssProtection middleware
+2020-04-23 17:14:07,131 INFO 17056 [egg-security] use xframe middleware
+2020-04-23 17:14:07,135 INFO 17056 [egg-security] use dta middleware
+2020-04-23 17:14:07,135 INFO 17056 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:14:07,166 INFO 17056 [egg:core] dump config after load, 19ms
+2020-04-23 17:14:07,213 INFO 17056 [egg-watcher:application] watcher start success
+2020-04-23 17:14:07,218 INFO 17056 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:14:07 GMT+0800 (GMT+08:00)
+2020-04-23 17:14:07,232 INFO 17056 [egg:core] dump config after ready, 12ms
+2020-04-23 17:14:31,511 INFO 15616 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\zhang\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-23 17:14:31,555 INFO 15616 [egg-multipart] stream mode enable
+2020-04-23 17:14:31,557 INFO 15616 [egg-mysql] connecting root@localhost:3306/1112
+2020-04-23 17:14:31,768 INFO 15616 [egg-static] starting static serve /public/ -> C:\Users\zhang\Desktop\egg\app\public
+2020-04-23 17:14:31,771 INFO 15616 [egg-security] use methodnoallow middleware
+2020-04-23 17:14:31,772 INFO 15616 [egg-security] use noopen middleware
+2020-04-23 17:14:31,773 INFO 15616 [egg-security] use nosniff middleware
+2020-04-23 17:14:31,774 INFO 15616 [egg-security] use xssProtection middleware
+2020-04-23 17:14:31,775 INFO 15616 [egg-security] use xframe middleware
+2020-04-23 17:14:31,776 INFO 15616 [egg-security] use dta middleware
+2020-04-23 17:14:31,776 INFO 15616 [egg-security] compose 6 middlewares into one security middleware
+2020-04-23 17:14:31,795 INFO 15616 [egg:core] dump config after load, 11ms
+2020-04-23 17:14:31,824 INFO 15616 [egg-watcher:application] watcher start success
+2020-04-23 17:14:31,829 INFO 15616 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 23 2020 17:14:31 GMT+0800 (GMT+08:00)
+2020-04-23 17:14:31,849 INFO 15616 [egg:core] dump config after ready, 16ms
+2020-04-23 23:59:57,222 INFO 15616 [egg-logrotator] clean all log before 31 days
+2020-04-23 23:59:58,193 INFO 15616 [egg-logrotator] broadcast log-reload
+2020-04-23 23:59:58,193 INFO 15616 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\common-error.log -> C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\common-error.log.2020-04-23","C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-web.log -> C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-web.log.2020-04-23","C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-schedule.log -> C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-schedule.log.2020-04-23","C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-agent.log -> C:\\Users\\zhang\\Desktop\\egg\\logs\\egg\\egg-agent.log.2020-04-23"]

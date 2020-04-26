@@ -1,0 +1,278 @@
+2020-04-20 09:29:40,557 ERROR 5760 [-/127.0.0.1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:30:54,405 ERROR 5760 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:30:55,808 ERROR 5760 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:30:56,272 ERROR 5760 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:30:56,329 ERROR 5760 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:39:10,697 ERROR 5760 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 09:44:58,696 ERROR 5760 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\zhang\Desktop\egg\node_modules\_egg@2.26.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\zhang\Desktop\egg\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (C:\Users\zhang\Desktop\egg\node_modules\_koa-session@5.13.1@koa-session\index.js:41:13)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 5760
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 10:58:08,788 ERROR 12924 [-/127.0.0.1/-/8ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (C:\Users\zhang\Desktop\egg\app\service\news.js:6:13)
+    at NewsController.list (C:\Users\zhang\Desktop\egg\app\controller\news.js:7:45)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 12924
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:00:51,471 ERROR 11800 [-/127.0.0.1/-/17ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (C:\Users\zhang\Desktop\egg\app\service\news.js:6:13)
+    at NewsController.list (C:\Users\zhang\Desktop\egg\app\controller\news.js:7:45)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 11800
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:00:54,424 ERROR 14520 [-/127.0.0.1/-/14ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (C:\Users\zhang\Desktop\egg\app\service\news.js:6:13)
+    at NewsController.list (C:\Users\zhang\Desktop\egg\app\controller\news.js:7:45)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 14520
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:00:54,908 ERROR 14520 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (C:\Users\zhang\Desktop\egg\app\service\news.js:6:13)
+    at NewsController.list (C:\Users\zhang\Desktop\egg\app\controller\news.js:7:45)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\zhang\Desktop\egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\zhang\Desktop\egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 14520
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:02:10,404 ERROR 2900 [-/undefined/-/5045ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5028,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 2900
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:02:10,743 ERROR 2900 [-/127.0.0.1/-/5002ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5001,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 2900
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:07:10,197 ERROR 7668 [-/127.0.0.1/-/5037ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/fakedata/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/fakedata/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5023,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/fakedata/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7668
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:07:33,947 ERROR 11100 [-/127.0.0.1/-/5063ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5044,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 11100
+hostname: DESKTOP-1JNFRSL
+
+2020-04-20 11:23:11,660 ERROR 7492 [-/::1/-/5060ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5044,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7492
+hostname: DESKTOP-1JNFRSL
+
+2020-04-21 09:50:51,748 ERROR 15160 [-/::1/-/5048ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5040,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 15160
+hostname: DESKTOP-1JNFRSL
+
+2020-04-21 15:42:50,639 ERROR 15160 [-/::1/-/5052ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\zhang\Desktop\egg\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5031,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 15160
+hostname: DESKTOP-1JNFRSL
+
