@@ -10,4 +10,5 @@ module.exports = app => {
   router.post('/addOneTodo', controller.todo.add);
   router.get('/queryTodo', controller.todo.query);
   router.post('/switchStatus', controller.todo.switchStatus);
+  router.delete('/clearComputed', controller.todo.clearComputed);
 };

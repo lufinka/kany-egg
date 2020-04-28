@@ -22,13 +22,21 @@ class todoService extends Service {
     }
   }
 
-  async query(params) {
-    const data = await this.app.mysql.select('todos', { where: params });
+  async query(params, offset) {
+    const data = await this.app.mysql.select('todos', {
+      where: params,
+      limit: 10, // 返回数据量
+      offset: Number(offset), // 数据偏移量
+    });
+    const len = await this.app.mysql.select('todos', {
+      where: params
+    });
     if (data) {
       return {
         code: 200,
         data: data,
-        msg: ``
+        msg: `success`,
+        total: len && len.length
       }
     } else {
       return {
@@ -47,6 +55,26 @@ class todoService extends Service {
       msg: ``
     }
   }
+
+  async clearComputed(params) {
+    const result = await this.app.mysql.delete('todos', Object.assign({
+      computed: '1'
+    }, params));
+    if (result.affectedRows == 0) {
+      return {
+        code: 300,
+        data: ``,
+        msg: `暂无可清除的完成项`
+      }
+    } else {
+      return {
+        code: 200,
+        data: result,
+        msg: ``
+      }
+    }
+  }
+
 }
 
 module.exports = todoService;

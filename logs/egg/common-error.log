@@ -28,3 +28,78 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 6220
 hostname: DESKTOP-1JNFRSL
 
+2020-04-28 09:44:57,121 ERROR 2888 [-/::1/-/2ms POST /switchStatus] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:30:15)
+    at todoService.switchStatus (C:\Users\zhang\Desktop\egg\app\service\todo.js:43:41)
+    at todoController.switchStatus (C:\Users\zhang\Desktop\egg\app\controller\todo.js:19:43)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 2888
+hostname: DESKTOP-1JNFRSL
+
+2020-04-28 09:45:07,295 ERROR 2888 [-/::1/-/2ms POST /switchStatus] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:30:15)
+    at todoService.switchStatus (C:\Users\zhang\Desktop\egg\app\service\todo.js:43:41)
+    at todoController.switchStatus (C:\Users\zhang\Desktop\egg\app\controller\todo.js:19:43)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 2888
+hostname: DESKTOP-1JNFRSL
+
+2020-04-28 09:50:41,729 ERROR 2888 [-/::1/-/1ms POST /switchStatus] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:30:15)
+    at todoService.switchStatus (C:\Users\zhang\Desktop\egg\app\service\todo.js:43:41)
+    at todoController.switchStatus (C:\Users\zhang\Desktop\egg\app\controller\todo.js:19:43)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 2888
+hostname: DESKTOP-1JNFRSL
+
+2020-04-28 10:16:06,152 ERROR 8024 [-/::1/-/2ms POST /switchStatus] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:30:15)
+    at todoService.switchStatus (C:\Users\zhang\Desktop\egg\app\service\todo.js:47:41)
+    at todoController.switchStatus (C:\Users\zhang\Desktop\egg\app\controller\todo.js:19:43)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8024
+hostname: DESKTOP-1JNFRSL
+
+2020-04-28 10:18:28,309 ERROR 8024 [-/::1/-/3ms POST /switchStatus] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (C:\Users\zhang\Desktop\egg\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (C:\Users\zhang\Desktop\egg\node_modules\_co@4.6.0@co\index.js:30:15)
+    at todoService.switchStatus (C:\Users\zhang\Desktop\egg\app\service\todo.js:47:41)
+    at todoController.switchStatus (C:\Users\zhang\Desktop\egg\app\controller\todo.js:19:43)
+    at Object.callFn (C:\Users\zhang\Desktop\egg\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8024
+hostname: DESKTOP-1JNFRSL
+
