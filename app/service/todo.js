@@ -1,6 +1,7 @@
 const Service = require('egg').Service;
 
 class todoService extends Service {
+
   async add(params) {
     // 先校验待办项是否重复
     const hasTodo = await this.app.mysql.get('todos', params);
@@ -20,6 +21,7 @@ class todoService extends Service {
       }
     }
   }
+
   async query(params) {
     const data = await this.app.mysql.select('todos', { where: params });
     if (data) {
@@ -36,6 +38,7 @@ class todoService extends Service {
       }
     }
   }
+
   async switchStatus(params) {
     const result = await this.app.mysql.update('todos', params); // 更新 posts 表中的记录
     return {
